@@ -155,7 +155,7 @@ To remove the last item from the array, use {{jsxref("Array.prototype.pop()","po
 ```js
 const cities = ['Manchester', 'Liverpool'];
 cities.pop();
-console.log(cities);     // [ "Manchester" ]
+console.log(cities);     // [ "Liverpool" ]
 ```
 
 The `pop()` method returns the item that was removed. To save that item in a new variable, you could do this:
